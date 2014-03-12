@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu:12.04
 
 # Install Node.js
 RUN apt-get install -y software-properties-common python-software-properties
